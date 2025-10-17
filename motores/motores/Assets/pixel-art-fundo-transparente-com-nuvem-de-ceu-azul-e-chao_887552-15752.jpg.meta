@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixel-art-fundo-transparente-com-nuvem-de-ceu-azul-e-chao_887552-15752_0: -2741620711115053529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
