@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     
     private bool noChao = false;
     private bool andando = false;
+    private bool dano = false;
     
     private SpriteRenderer sprite;
     private Rigidbody2D rb;
@@ -47,7 +48,7 @@ public class Player : MonoBehaviour
 
         animator.SetBool("Andando",andando);
         animator.SetBool("Pulo",!noChao);
-        
+        animator.SetBool("Dano", dano);
     }
 
     void OnCollisionEnter2D(Collision2D colisao)
@@ -66,4 +67,30 @@ public class Player : MonoBehaviour
             noChao = false;
         }
     }
+
+ void OnCollisionEntert2D(Collision2D colisao)
+    {
+        if(colisao.gameObject.CompareTag("Perigo"))
+        {
+            dano = true;
+        }
+    }
+
+ void OnTriggerEnter2D(Collider2D other)
+ {
+     if (other.gameObject.CompareTag("Perigo"))
+         dano = true;
+        animator.SetBool("Dano", true);
+        rb.linearVelocity = Vector2.zero;
+                
+        
+        
+        
+    }
+
+
+
+
+
+
 }

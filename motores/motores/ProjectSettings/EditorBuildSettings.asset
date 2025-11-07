@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/senas/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 10.unity
+    guid: 892731c2f0f720b4cacefa0aa6a117bf
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 9.unity
+    guid: ee9f5bed3596d7841bdff641428a3b6c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
