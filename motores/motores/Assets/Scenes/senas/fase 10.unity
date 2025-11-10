@@ -19830,7 +19830,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2095773252}
   - component: {fileID: 2095773251}
-  - component: {fileID: 2095773254}
   - component: {fileID: 2095773253}
   m_Layer: 0
   m_Name: door
@@ -19955,19 +19954,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.22, y: 0.33}
   m_EdgeRadius: 0
---- !u!114 &2095773254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095773250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc6f96d0d9d252f42aa7c461c8bdf68b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nomeDaCena: fase 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

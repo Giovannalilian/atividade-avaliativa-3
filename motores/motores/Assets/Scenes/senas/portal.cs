@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Portal : MonoBehaviour
+public partial class Portal : MonoBehaviour
 {
     public string nomeDaCena;
     
