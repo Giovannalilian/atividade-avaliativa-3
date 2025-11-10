@@ -34,7 +34,7 @@ public class Inimigo : MonoBehaviour
                 && Mathf.Abs(player.transform.position.x - transform.position.x) < distanciaDeVisao)
             {
                 transform.position += Vector3.right * velocidade * Time.deltaTime;
-                spriteRenderer.flipX = false;
+                spriteRenderer.flipX = true;
             }
             
             //esquerda
@@ -42,7 +42,7 @@ public class Inimigo : MonoBehaviour
                 && Mathf.Abs(player.transform.position.x - transform.position.x) < distanciaDeVisao)
             {
                 transform.position -= Vector3.right * velocidade * Time.deltaTime;
-                spriteRenderer.flipX = true;
+                spriteRenderer.flipX = false;
             }
 
         }
