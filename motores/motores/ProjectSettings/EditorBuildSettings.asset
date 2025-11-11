@@ -14,6 +14,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/senas/fase 9.unity
     guid: ee9f5bed3596d7841bdff641428a3b6c
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 8.unity
+    guid: 4faa87d1985cb8748bdc53bf0c68f59f
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 7.unity
+    guid: 7032e7bcd79f77e448eda7611d9ebd5c
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 6.unity
+    guid: 4299c6b5f5e48a242b6bd164fd75faf8
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 5.unity
+    guid: e9ba45beba419fb46892e871183458ba
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 4.unity
+    guid: f5d77f48aac38a6449a5616e0b464a8d
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 3.unity
+    guid: e05bd99c18a05d04cad7d53be5297b7f
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 2.unity
+    guid: 4e411fabb5595e948a7ca1302ebd94c9
+  - enabled: 1
+    path: Assets/Scenes/senas/fase 1.unity
+    guid: 5022cc5daec633a43b2e5c7b37500711
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
