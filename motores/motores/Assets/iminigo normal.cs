@@ -8,7 +8,7 @@ public class Inimigo : MonoBehaviour
     
     private GameObject player;
 
-    public float distanciaDeVisao = 8;
+    public float distanciaDeVisao = 10;
     public float velocidade = 4;
     
     

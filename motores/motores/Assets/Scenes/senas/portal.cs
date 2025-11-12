@@ -9,7 +9,7 @@ public partial class Portal : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("fase 1");          
+            SceneManager.LoadScene(nomeDaCena);          
         }
     }
 }
